@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sentiment Analysis Demo</title>
+  <link rel="stylesheet" href="sentiment.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="sentiment.js" defer></script>
+</head>
+<body>
+  <div class="background-overlay">
+    <div class="container">
+      <h1>Sentiment Analysis</h1>
+      <form id="sentiment-form">
+        <div class="form-group">
+          <label for="userText">Enter a sentence:</label>
+          <textarea id="userText" placeholder="Type your text here..." rows="4" required></textarea>
+        </div>
+        <button type="button" onclick="onAnalyzeSentiment()">Analyze Sentiment</button>
+        <div id="sentimentResult" class="result"><h2></h2></div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
