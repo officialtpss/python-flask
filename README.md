@@ -33,7 +33,7 @@ hotel-price-estimation/
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/yourusername/hotel-price-estimation.git
+git clone [https://github.com/officialtpss/python-flask](https://github.com/officialtpss/python-flask)
 cd hotel-price-estimation
 ```
 
